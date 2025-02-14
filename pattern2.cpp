@@ -2,16 +2,21 @@
 using namespace std;
 
 
-int main(){
+int main() {
   int n;
   cin>>n;
 
   int  i = 1;
   while(i<=n){
 
-    int j = i;
+    int j = 1;
     while(j<=n){
-      cout<<i<<" "<<j<<endl;
+
+      cout<<i;
+      j = j+1;
     }
+    cout<<endl;
+    i = i+1;
 
   }
+}
